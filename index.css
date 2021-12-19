@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Corinthia:wght@700&display=swap');
+/* @import url('http://fonts.cdnfonts.com/css/densmore-2'); */
+@import url('http://fonts.cdnfonts.com/css/hansief');
+@import url('http://fonts.cdnfonts.com/css/lemondrop');
+@import url('http://fonts.cdnfonts.com/css/michelangelo');
+@import url('http://fonts.cdnfonts.com/css/bodoni-fragile');
+@import url('http://fonts.cdnfonts.com/css/optithaddeus');
+@import url('http://fonts.cdnfonts.com/css/nervousm');
+@import url('http://fonts.cdnfonts.com/css/queen-of-clubs');
+
+body {
+    background-color: #FCECDD;
+    overflow-x: hidden;
+}
+
+.banner {
+    position: fixed;
+    top: 0vh;
+    left: 0%;
+    width: 65vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    overflow-x: hidden;
+
+    /* z-index: 1; */
+    /* border: solid 1px black; */
+   
+}
+/* 
+ @supports (-webkit-text-stroke: 1px black) { 
+     h1 {
+      
+      -webkit-text-stroke: 1px rgb(0, 0, 0);
+      -webkit-text-fill-color: rgb(255, 224, 50);
+    }
+
+  #t {
+    -webkit-text-stroke: 1px rgba(0, 0, 0);
+   
+   }
+
+  } */
+
+#indigo {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    width: 40vw;
+    height: 10vh;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 4em;
+    position: absolute;
+    top: 0vh;
+    margin: 0;                                                                   font-family: 'OPTIThaddeus-Light', sans-serif;
+    font-family: 'Queen of Clubs', sans-serif;
+    /* border: 1px solid red; */
+;
+    color: #000000;
+    /* text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.123); */
+   
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  */
+   
+}
+
+
+
+.color {
+    /* border-radius: 10vw;  */
+    /* border: solid 1px black;  */
+    
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 2%;
+    width: 27vw;
+    height: 5.5vh;
+    /* background-color: #383bff;  */
+    /* border: dotted 2px black;  */
+    /* backdrop-filter: blur(20px); */
+    /* box-shadow: 3px 1px 3px 1px rgba(134, 134, 134, 0.431); */
+    opacity: 0.75;
+    z-index: 20;
+}
+
+#section-1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /* top: 5.5vh;
+  left: 0px;
+  width: 100vw;
+  height: 20vh;
+  background-color:khaki; */
+}
+
+#section-2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /* background-color:blueviolet;
+  left: 0px;
+  width: 100vw;
+  height: 20vh;
+  top: 25.5vh; */
+}
+
+#section-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#section-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+#section-5 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* #t{
+  color:indigo;
+} */
+
+/* #cross{
+  position: fixed;
+  height: 0.1em;
+  width:  0.65em;
+  background-color: rgb(255, 224, 50);
+  left: 71vw;
+  top: 4.5vw;
+  z-index: 5
+} */
