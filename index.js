@@ -1,8 +1,28 @@
 console.log("index.js")
 
+
+LottieInteractivity.create({
+    mode: 'scroll',
+    player:'#paintball',
+    actions: [
+        {
+            visibility: [0.7, 0.03],
+            type: 'stop',
+            frames: [0]
+        },
+        {
+            visibility: [0.3, 1],
+            type: 'seek',
+            frames: [0, 64]
+        }
+    ]
+});
+
+
 const colors = document.getElementsByClassName("color")
 colorArray=Array.from(colors)
 
+//quick way to create random rgb values
 function randomize(n) {
     return Math.floor(Math.random() * Math.floor(n))
 }
@@ -17,47 +37,6 @@ colorArray.map(colorBox=>{
         })
     })
 
-
-   
-
-
-    // const logo = document.getElementById("indigo")
-    // console.log(logo)
-    // logo.addEventListener('click', function(e){
-    //     e.target.style.color=`rgb(${randomize(255)}, ${randomize(255)}, ${randomize(255)})`
-    // })
-
-    // const indigo = document.querySelector('#indigo')
-    // indigoArray=indigo.innerHTML.split("")
-    // // console.log(indigoArray)
-    // const noSpaceArray = indigoArray.filter(item => item !== " ")
-    // console.log(noSpaceArray)
-    // // noSpaceArray.map(letter => {
-    // //    let div = document.createElement('div')
-    // //    const body = document.querySelector('body')
-    // //    div.innerHTML=letter
-    // //    body.appendChild(div)
-    // //    div.className = "letter";  
-    // //    div.style.display = "inline" 
-    // //    div.style.color = "white" 
-    // //    div.style.fontFamily="arial"  
-    // // })
-
-    // const collection = document.getElementsByClassName('letter')
-    // const letters = Array.from(collection);
-    // letters.map(letter=>{
-    //     letter.addEventListener('click',function(e){
-    //         div.innerHTML=letter;
-    //         e.target.style.color=`rgb(${randomize(255)}, ${randomize(255)}, ${randomize(255)})`;
-    //     })
-    // })
     
-        // addEventListener('click', function(){
-        //     const div = document.createElement('div')
-        //     div.style.backgroundColor = `rgb(${randomize(255)}, ${randomize(255)}, ${randomize(255)})`;
-        //     div.style.width = 5;
-        //     div.style.height = 5;
-        //     document.appendChild;
-        // })
 
-   
+    
