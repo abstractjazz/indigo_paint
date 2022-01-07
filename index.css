@@ -54,7 +54,8 @@ body {
     font-size: 4em;
     position: absolute;
     top: 0vh;
-    margin: 0;                                                                   font-family: 'OPTIThaddeus-Light', sans-serif;
+    margin: 0;        
+    /* font-family: 'OPTIThaddeus-Light', sans-serif; */
     font-family: 'Queen of Clubs', sans-serif;
     /* border: 1px solid red; */
 ;
@@ -63,6 +64,15 @@ body {
    
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  */
    
+}
+
+#subhead {
+  position: absolute; 
+  width: 50vw;
+  left: 1%;
+  top: 110%;
+  font-family: 'hanseif', serif;
+  font-size: 1em;
 }
 
 
