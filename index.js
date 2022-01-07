@@ -37,6 +37,26 @@ colorArray.map(colorBox=>{
         })
     })
 
+    const pb = document.querySelector('#paintball-2');
+    document.addEventListener('scroll',function(e) {
+        pb.animate(
+            [
+                        {transform:`translateY(-5vh) translateX(0%) translate3D(0,0,0)`},
+                
+                        // {transform: 'translate3D(0,0,0)' },
+                        
+                        // {transform: 'translate3D(0,0,0)' },
+                        
+                        {transform: ` translateY(0.3vh) translateX(0%) translate3D(0,0,0)` }
+                    ],
+                    {
+                        duration: 2000,
+                        iterations: 1,
+                        easing: 'ease-in-out'
+                    }
+        )
+    })
+
     
 
     

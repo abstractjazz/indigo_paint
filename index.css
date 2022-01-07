@@ -144,21 +144,30 @@ height: 100vh;
   height: 100vh;
 } */
 
+
+#animation-container {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+  width: 100vw;
+  height: 25%;
+  background-color: black;
+  }
+
 #paintball {
 
   transform: rotate(180deg);
 }
 
-
-
-#animation-container {
-position: absolute;
-top: 450px;
-left: 0px;
-width: 100vw;
-height: 25%;
-background-color: black;
+#paintball-2 {
+  position: absolute;
+  top: -5vh;
+  right: 10vh;
 }
+
+
+
+
 
 /* #t{
   color:indigo;
