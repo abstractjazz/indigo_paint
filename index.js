@@ -37,6 +37,21 @@ colorArray.map(colorBox=>{
         })
     })
 
+
+
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    const navBox = document.querySelector('.topnav')
+    const links = document.getElementById("myLinks");
+    if (links.style.display === "block") {
+      links.style.display = "none";
+      navBox.style.backgroundColor=""
+    } else {
+      links.style.display = "block";
+      navBox.style.backgroundColor="rgba(0,0,0,0.25)"
+    }
+  } 
+
     // const pb = document.querySelector('#paintball-2');
     // document.addEventListener('scroll',function(e) {
     //     pb.animate(

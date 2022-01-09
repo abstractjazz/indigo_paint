@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
-       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 
@@ -17,7 +17,6 @@
         <header>
             <div id=head-subhead>
                 <h1 id="indigo">Indigo Painting</h1>
-                <!-- <h2 id="subhead">indigopaintingbayarea@gmail.com</h2> -->
                 <h2 id="subhead"><span style="color:#152246">indigo</span><span style="color:#fe6d1f">painting</span><span style="color:#152246">bayarea</span><span style="font-size: 1em">@gmail.com<br> 
                 |||||||||||||||||||||||||||||||||||||| 510.927.5857</span></h2>
             </div>
@@ -145,20 +144,45 @@
             </div>
         </header>
        
-        <section id="section-1">
-            <div id=border-div>
-                <!-- <div id="hero-div"> -->
-                    <img id="hero-img" src="./assets/indigo_painting_hero.jpg"/>
-                <!-- </div> -->
+        <div class="topnav">
+            <a href="#home" class="active"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+              <a href="#news">News</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
             </div>
-           
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+        <section id="section-1">
+            <div id="hero-div">
+                <div id="first-para">
+                    <p>At Indigo Painting, we provide quality painting services to local 
+                        San Francisco Bay Area clients for reasonable prices.
+                        With over 12 years experience, we are confident that we have 
+                        the professional tools and skills to meet all your painting needs.
+                        Contact us today for a free estimate, and learn more about what we have to offer.</p>
+                </div>    
+            </div>
+            
+            <div id="img-container">
+                <div id="offset-border">
+                    <!-- <div id=border-div> -->
+                        <img id="hero-img" src="./assets/indigo_painting_hero.jpg"/>
+                    <!-- </div>  -->
+                </div>
+            </div>
+
             <div id="animation-container">
-                <lottie-player id="paintball" src="https://assets5.lottiefiles.com/packages/lf20_TFfEcv.json"  background="transparent" style="width: 300px; height: 300px;"></lottie-player>
+                <lottie-player id="paintball" src="https://assets5.lottiefiles.com/packages/lf20_TFfEcv.json"  background="transparent" style="width: 50px; height: 50px;"></lottie-player>
             </div>
             <!-- <lottie-player id="paintball-2" src="https://assets5.lottiefiles.com/packages/lf20_TFfEcv.json"  background="transparent" style="width: 300px; height: 300px;"></lottie-player> -->
            
-                
-          
+            <img id="blue-brush" src="./assets/blueBrush.png">
         </section>
         
         <section id="section-2"></section>
