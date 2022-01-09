@@ -199,13 +199,13 @@ height: 20vh; */
   }
   
   #img-container {
-    margin-top: -12.5vh;
+    margin-top: -4.5vh;
     margin-bottom: 2vh;
   }
 
   #offset-border {
-    width: 52vw;
-    height: 17.8vh;
+    width: 85vw;
+    height: 40.8vh;
     padding-left: 2vw;
     }
 
@@ -216,13 +216,13 @@ height: 20vh; */
     }
 
     #first-para {
-      margin-top: 9vh;
+      margin-top: 5vh;
       margin-left: 7vw;
       font-size: 1.2em;
     }
 
     #hero-div {
-      width: 85vw;
+      width: 90vw;
 
     }
 
