@@ -6,12 +6,12 @@ LottieInteractivity.create({
     player:'#paintball',
     actions: [
         {
-            visibility: [0.7, 0.03],
+            visibility: [0.2, 0.03],
             type: 'stop',
             frames: [0]
         },
         {
-            visibility: [0.3, 1],
+            visibility: [0.1, 1],
             type: 'seek',
             frames: [0, 64]
         }
@@ -51,6 +51,11 @@ function myFunction() {
       navBox.style.backgroundColor="rgba(0,0,0,0.25)"
     }
   } 
+
+
+
+//   const IG = document.querySelector('.instagram-media');
+//   IG.style.display="none";
 
     // const pb = document.querySelector('#paintball-2');
     // document.addEventListener('scroll',function(e) {
