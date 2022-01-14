@@ -38,6 +38,71 @@ colorArray.map(colorBox=>{
     })
 
 
+    const div1=document.getElementById('div-1')
+    const div2=document.getElementById('div-2')
+    const div3=document.getElementById('div-3')
+    const div4=document.getElementById('div-4')
+    const leftButton=document.getElementById('left-button')
+    const rightButton=document.getElementById('right-button')
+    const numArray = [div1, div2, div3, div4];
+   
+    let i=0
+    let hasFocus = numArray[i]
+    console.log(numArray[i])
+   
+    const increment = () => {
+        if (i < numArray.length) {
+            console.log(numArray[i])
+            i++
+           console.log(i)
+        } else {
+            i = 0;
+        } 
+        
+    }
+ 
+    const decrement = () => {
+        if ( !(i == 0) && i <= numArray.length-1) {
+            i --; 
+         console.log(i)
+    } else {
+        i = numArray.length-1;
+        console.log(i)
+    }
+}
+
+    leftButton.addEventListener('click', decrement)
+    rightButton.addEventListener('click', increment)
+    
+  
+
+
+
+    
+
+    function carouselScroll(){
+        numArray.map(div=>{
+            if (div === hasFocus) {
+                div.style.background="blue"
+            } else {
+                div.style.background = ""
+            }           
+        })
+        // if(!(i==hasFocus)) {
+        //     i.style.display="none"
+        // }
+        // for(i=0; i < numArray.length; carouselScroll()) {
+    
+        // }
+
+    }
+
+    // const leftButton = document.getElementById('left-button')
+    // const rightButton = document.getElementById('right-button')
+    // leftButton.addEventListener('click', carouselScroll)
+    // rightButton.addEventListener('click', carouselScroll)
+
+    
 
     /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
@@ -51,32 +116,3 @@ function myFunction() {
       navBox.style.backgroundColor="rgba(0,0,0,0.25)"
     }
   } 
-
-
-
-//   const IG = document.querySelector('.instagram-media');
-//   IG.style.display="none";
-
-    // const pb = document.querySelector('#paintball-2');
-    // document.addEventListener('scroll',function(e) {
-    //     pb.animate(
-    //         [
-    //                     {transform:`translateY(-5vh) translateX(0%) translate3D(0,0,0)`},
-                
-    //                     // {transform: 'translate3D(0,0,0)' },
-                        
-    //                     // {transform: 'translate3D(0,0,0)' },
-                        
-    //                     {transform: ` translateY(0.3vh) translateX(0%) translate3D(0,0,0)` }
-    //                 ],
-    //                 {
-    //                     duration: 2000,
-    //                     iterations: 1,
-    //                     easing: 'ease-in-out'
-    //                 }
-    //     )
-    // })
-
-    
-
-    
