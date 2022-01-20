@@ -19,6 +19,24 @@ LottieInteractivity.create({
 });
 
 
+LottieInteractivity.create({
+    mode: 'scroll',
+    player:'#paintbrush',
+    actions: [
+        {
+            visibility: [0.2, 0.3],
+            type: 'stop',
+            frames: [0]
+        },
+        {
+            visibility: [0.1, 2],
+            type: 'seek',
+            frames: [0, 64]
+        }
+    ]
+});
+
+
 const colors = document.getElementsByClassName("color")
 colorArray=Array.from(colors)
 
@@ -38,56 +56,59 @@ colorArray.map(colorBox=>{
     })
 
 
-    const div1=document.getElementById('div-1')
-    const div2=document.getElementById('div-2')
-    const div3=document.getElementById('div-3')
-    const div4=document.getElementById('div-4')
-    const leftButton=document.getElementById('left-button')
-    const rightButton=document.getElementById('right-button')
-    const numArray = [div1, div2, div3, div4];
+    // const div1=document.getElementById('div-1')
+    // const div2=document.getElementById('div-2')
+    // const div3=document.getElementById('div-3')
+    // const div4=document.getElementById('div-4')
+    // const leftButton=document.getElementById('left-button')
+    // const rightButton=document.getElementById('right-button')
+    // const numArray = [div1, div2, div3, div4];
    
-    let i=0
-    let hasFocus = numArray[i]
-    console.log(numArray[i])
+    // let i=0
+    // let hasFocus = numArray[i]
+    // console.log(numArray[i])
    
-    const increment = () => {
-        if (i < numArray.length) {
-            console.log(numArray[i])
-            i++
-           console.log(i)
-        } else {
-            i = 0;
-        } 
+    // const increment = () => {
+    //     if (i < numArray.length-1) {
+    //         // console.log(numArray[i])
+    //         i++
+    //        console.log(i)
+    //     } else {
+    //         i = 0;
+    //     } 
         
-    }
+    // }
  
-    const decrement = () => {
-        if ( !(i == 0) && i <= numArray.length-1) {
-            i --; 
-         console.log(i)
-    } else {
-        i = numArray.length-1;
-        console.log(i)
-    }
-}
+    // const decrement = () => {
+    //     if ( !(i == 0) && i <= numArray.length-1) {
+    //         i --; 
+    //      console.log(i)
+    // } else {
+    //     i = numArray.length-1;
+    //     console.log(i)
+    // }
 
-    leftButton.addEventListener('click', decrement)
-    rightButton.addEventListener('click', increment)
+
+    // leftButton.addEventListener('click', decrement)
+    // rightButton.addEventListener('click', increment)
     
   
 
-
+    //add carousel
+   
 
     
 
-    function carouselScroll(){
-        numArray.map(div=>{
-            if (div === hasFocus) {
-                div.style.background="blue"
-            } else {
-                div.style.background = ""
-            }           
-        })
+    
+
+    // function carouselScroll(){
+    //     numArray.map(div=>{
+    //         if (div === hasFocus) {
+    //             div.style.background="blue"
+    //         } else {
+    //             div.style.background = ""
+    //         }           
+    //     })
         // if(!(i==hasFocus)) {
         //     i.style.display="none"
         // }
@@ -95,7 +116,7 @@ colorArray.map(colorBox=>{
     
         // }
 
-    }
+  
 
     // const leftButton = document.getElementById('left-button')
     // const rightButton = document.getElementById('right-button')
