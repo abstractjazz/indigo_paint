@@ -7,8 +7,9 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css">
+        
     <body>
         
         <header>
@@ -17,7 +18,7 @@
                 <h2 id="subhead"><span style="color:#152246">indigo</span><span style="color:#fe6d1f">painting</span><span style="color:#152246">bayarea</span><span style="font-size: 1em">@gmail.com<br> 
                 |||||||||||||||||||||||||||||||||||||| 510.927.5857</span></h2>
             </div>
-            <div class="banner">
+            <div id="banner" class="banner">
                 <div class="color"></div>
                 <div class="color"></div>
                 <div class="color"></div>
@@ -141,8 +142,8 @@
             </div>
         </header>
        
-        <div class="topnav">
-            <a href="#home" class="active"></a>
+        <div id=topnav class="topnav">
+            <!-- <div class="s"></a> -->
             <!-- Navigation links (hidden by default) -->
             <div id="myLinks">
               <a href="#news">News</a>
@@ -151,7 +152,7 @@
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+              <i id="bars" class="fa fa-bars"></i>
             </a>
           </div>
 
@@ -184,7 +185,7 @@
         <section id="section-2">
             <div id="flex-container-1">
                 <div id="animation-container">
-                    <lottie-player id="paintball" src="https://assets5.lottiefiles.com/packages/lf20_TFfEcv.json"  background="transparent"></lottie-player>
+                    <!-- <lottie-player id="paintball" src="https://assets4.lottiefiles.com/packages/lf20_gibgteua.json"  background="transparent"></lottie-player> -->
                 </div>   
             </div>
             
@@ -221,46 +222,63 @@
 
       
         <section id="section-3">
-            <div id="animation-flex-container">
+           <!-- <div id="animation-flex-container">
                 <div id="animation-container-2">
-                    <lottie-player id="paintbrush" src="https://assets7.lottiefiles.com/packages/lf20_a2kx1fvm.json"  background="transparent"></lottie-player>
-                </div>
+                     <lottie-player id="paintbrush" src="https://assets7.lottiefiles.com/packages/lf20_a2kx1fvm.json"  background="transparent"></lottie-player>
+                </div>               
+            </div> -->
+            <div id="contact-para">
+                <h1>Contact us for a free onsite estimate</h1>
+                <p>In need of a dependable high quality painting service?<br>Contact Indigo Painting today for your free on-site consultation and estimate.</p>
             </div>
-
             <div id="our-services">
+                <h1>Our Services</h1>
                 <div id="interior">
                     <p>Interior Painting</p>
+                    <img class="service-img" src="https://via.placeholder.com/150">
                     <img class="service-img" src="https://via.placeholder.com/150">
                 </div>
                 <div id="exterior">
                     <p>Exterior Painting</p>
                     <img class="service-img" src="https://via.placeholder.com/150">
+                    <img class="service-img" src="https://via.placeholder.com/150">
                 </div>
                 <div id="res-comm">
                     <p>Residential & Commercial</p>
                     <img class="service-img" src="https://via.placeholder.com/150">
+                    <img class="service-img" src="https://via.placeholder.com/150">
                 </div>
             </div>
+            <!-- <div id="contact-para">||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<br>Contact Indigo Painting today<br>for your <span style="color:#fe6d1f">free on-site consultation and estimate</span><br>|||||||||||||||||||||||||||||||||||||||||||||</div> -->
+            
+          
+                <div id="animation-container-3">
+                    <lottie-player id="contact-animation" src="https://assets4.lottiefiles.com/packages/lf20_lxol0dtr.json"  background="transparent"></lottie-player>
+                </div>               
+
             <form id="contact" name="contact" method="POST" data-netlify="true">
                 <p>
-                    <label>Your Name: <input type="text" name="name" /></label>   
+                    <label>Name: <input type="text" name="name" /></label>   
                 </p>
                 <p>
-                    <label>Your Email: <input type="text" name="name" /></label>   
+                    <label>Email: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                    <label>Phone: <input type="text" name="name" /></label>   
                 </p>
                 
-               
                 <p>
                     <label>Message: <textarea name="message"></textarea></label>
                 </p>
                 <p>
-                    <button type="submit">Send</button>
+                    <button id="submit" type="submit">Send</button>
                 </p>
             </form>
 
         </section>
         <section id="section-4">
-               
+               <div id="testimonial-h1"><h1>Praise from our customers</h1></div>
+                
                     <div class="siema">
                         <span class="yelp-review" data-review-id="SZvtw2cj7IHdIjQ0ZYbbkQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=qNpVNkncXu7_iY3H2ZaJZg" rel="nofollow noopener">Amyel O.</a>'s <a href="https://www.yelp.com/biz/indigo-painting-san-francisco-2?hrid=SZvtw2cj7IHdIjQ0ZYbbkQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/W5vpeB0lgX5oELq-Sl4F4w" rel="nofollow noopener">Indigo Painting</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>  
                         <span class="yelp-review" data-review-id="_I2kZaqMi1q2PJ6_bDAoww" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=94CA8H9OhetNJvQFHXra9Q" rel="nofollow noopener">Michael M.</a>'s <a href="https://www.yelp.com/biz/indigo-painting-san-francisco-2?hrid=_I2kZaqMi1q2PJ6_bDAoww" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/W5vpeB0lgX5oELq-Sl4F4w" rel="nofollow noopener">Indigo Painting</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
@@ -274,12 +292,16 @@
     
         </section>
         
+        <div id="footer">
+            <p>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</p>
+            <p>Indigo Painting | 510.927.5857 | IndigoPaintingBayArea@Gmail.com </p>
+        </div>
 
     <script src="siema.min.js"></script>
        
        <script>
             const mySiema = new Siema({
-                perPage: 1,
+                perPage: 2,
                 startIndex: 1,
                 duration: 600,
                 loop: true,

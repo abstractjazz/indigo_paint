@@ -1,30 +1,47 @@
 console.log("index.js")
 
 
-LottieInteractivity.create({
-    mode: 'scroll',
-    player:'#paintball',
-    actions: [
-        {
-            visibility: [0.2, 0.03],
-            type: 'stop',
-            frames: [0]
-        },
-        {
-            visibility: [0.1, 1],
-            type: 'seek',
-            frames: [0, 64]
-        }
-    ]
-});
+// LottieInteractivity.create({
+//     mode: 'scroll',
+//     player:'#paintball',
+//     actions: [
+//         {
+//             visibility: [0.2, 0.03],
+//             type: 'stop',
+//             frames: [0]
+//         },
+//         {
+//             visibility: [0.1, 1],
+//             type: 'seek',
+//             frames: [0, 64]
+//         }
+//     ]
+// });
 
 
+// LottieInteractivity.create({
+//     mode: 'scroll',
+//     player:'#paintbrush',
+//     actions: [
+//         {
+//             visibility: [0.2, 0.2],
+//             type: 'stop',
+//             frames: [0]
+//         },
+//         {
+//             visibility: [0.1, 2],
+//             type: 'seek',
+//             frames: [0, 64]
+//         }
+//     ]
+// });
+
 LottieInteractivity.create({
     mode: 'scroll',
-    player:'#paintbrush',
+    player:'#contact-animation',
     actions: [
         {
-            visibility: [0.2, 0.3],
+            visibility: [0.2, 0.2],
             type: 'stop',
             frames: [0]
         },
@@ -126,14 +143,29 @@ colorArray.map(colorBox=>{
     
 
     /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    const bars = document.getElementById('bars')
+    const headSub = document.getElementById('head-subhead')
+    const subHead = document.getElementById('subhead')
+    const banner = document.getElementById('banner')
+    const topNav = document.getElementById('topnav')
+
 function myFunction() {
     const navBox = document.querySelector('.topnav')
     const links = document.getElementById("myLinks");
     if (links.style.display === "block") {
       links.style.display = "none";
       navBox.style.backgroundColor=""
+      bars.className="fa fa-bars";
+      banner.style.zIndex="400"
+      headSub.style.filter=""
+      topNav.style.zIndex="5"
+      
     } else {
       links.style.display = "block";
-      navBox.style.backgroundColor="rgba(0,0,0,0.25)"
+      navBox.style.backgroundColor="rgba(237, 221, 206, 0.75)"
+      bars.className="fa fa-times";
+      headSub.style.filter="blur(9px)"
+      banner.style.zIndex="-25"
+      topNav.style.zIndex="500"
     }
   } 
