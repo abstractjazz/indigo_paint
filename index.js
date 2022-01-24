@@ -72,7 +72,8 @@ colorArray.map(colorBox=>{
         })
     })
 
-
+   
+    
     // const div1=document.getElementById('div-1')
     // const div2=document.getElementById('div-2')
     // const div3=document.getElementById('div-3')

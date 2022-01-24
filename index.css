@@ -700,32 +700,33 @@ display: inline-block;
 
     overflow-x: hidden;
   } 
+
+
   
   #section-1 {
   display: flex;
   flex-direction: column-reverse;
-  margin-top: 1vh; 
-  /* margin-bottom: 10vh; */
   justify-content: flex-start;
   align-items: center;
   gap: 0;
-  background: rgba(0, 0, 0, 0.221);
+  /* background: rgba(0, 0, 0, 0.221); */
   }
 
   #hero-div {
-    margin-top: -7vh;
+    margin-top: -12vh;
     padding-left: 15vw;
     width: 100vw;
     }
 
     #first-para {
+      margin-top: 18vh;
       font-size: 1em;
       width: 85%; 
     } 
 
   #img-container {
     /* margin-top: 4.5vh; */
-    margin-bottom:0;
+    margin-bottom:2vh;
   } 
 
    #offset-border { 
@@ -737,9 +738,10 @@ display: inline-block;
     #contact-button {
       position: absolute;
       left: 39%;
-      width: 20vw; 
+      width: 28vw; 
       height: auto;
       font-size: 1em;
+      z-index: 50;
       
      }
 
@@ -763,10 +765,11 @@ display: inline-block;
   width: 100vw;
   top: 100vh;
   left: 0vw;
-  background: rgba(16, 232, 102, 0.221);
+  /* background: rgba(16, 232, 102, 0.221); */
   }
 
   #flex-container-2 {
+    margin-top: 5vh;
     width: 100vw;
     flex-direction: column;
     align-items: flex-start;
@@ -782,10 +785,15 @@ display: inline-block;
 
   #ig-wrapper {
     /* position: absolute; */
+    margin-top: -4vh;
     align-self: center;
-    margin-left: -10vw;
-    width: auto;
+    margin-left: 3vw;
+    width: 90vw;     
   }
+
+ /* blockquote {
+  
+ } */
 
 #section-3{
   margin-top: 15vh;
@@ -797,20 +805,20 @@ display: inline-block;
   /* ! BEGIN section 3 ! */
   #our-services {
     position: absolute;
-    top: 25vh;
-    align-self: center;
-    justify-self: flex-end;
+    top: 58vh;
+    /* align-self: center;
+    justify-self: flex-end; */
     flex-direction: column;
     width:87vw;
     height: 50vh;
     overflow-x: scroll;
-    margin-left: -15.5vw;
+    margin-left: -3vw;
    
   }
 
   #contact-para  {
     padding-left: 7vw;
-    margin-top: 5vh;
+    margin-top: 35vh;
     margin-bottom: 50vh;
     position: absolute;
     width: 80%;;
@@ -860,6 +868,33 @@ display: inline-block;
 
 #testimonial-h1 {
   margin-top: 5vh;
+}
+
+.siema {
+  align-self: center;
+  /* background: rgba(0, 0, 255, 0.125); */
+  /* margin-bottom: 2vh; */
+  width: 90vw;
+  border: 2px solid black;
+  padding: 1vh 0.5vh 1vh 0.5vh;
+  z-index: 40;
+} 
+
+.yelp-review {
+  /* padding-left: 1vw; */
+  z-index: 40;
+}
+
+
+#left-btn {
+  position: absolute;
+  top: 70vh;
+ 
+}
+
+#right-btn {
+position: absolute;
+top: 70vh;
 }
 
  }
