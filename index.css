@@ -1174,7 +1174,7 @@ margin-left: 1vh;
   
   }
 
-@media only screen and (min-width: 376px) and (max-width: 915px) {
+@media only screen and (min-width: 451px) and (max-width: 915px) {
   
   body {
     overflow-x: hidden;
@@ -1355,7 +1355,7 @@ margin-left: 1vh;
   }
   
   .siema {
-    margin-top: 20vh;
+    margin-top: 25vh;
     align-self: center;
     /* background: rgba(0, 0, 255, 0.125); */
     /* margin-bottom: 2vh; */
@@ -1380,6 +1380,226 @@ margin-left: 1vh;
   #right-btn {
   position: absolute;
   top: 50vh;
+  }
+  
+  
+
+  #footer{
+  margin-top: 70vh;
+  margin-left: 0;
+  
+    }
+  
+  }
+
+@media only screen and (min-width: 376px) and (max-width: 451px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  #section-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+    /* background: rgba(0, 0, 0, 0.221); */
+    }
+  
+    #hero-div {
+      margin-top: -12vh;
+      padding-left: 15vw;
+      width: 100vw;
+      }
+  
+      #first-para {
+        margin-top: 18vh;
+        font-size: 1em;
+        width: 85%; 
+      } 
+  
+    #img-container {
+      /* margin-top: 4.5vh; */
+      margin-bottom:2vh;
+    } 
+  
+     #offset-border { 
+     width: 35vw;
+     height: auto;
+      /* padding-left: 2vw; */
+      }  
+      
+      #contact-button {
+        position: absolute;
+        left: 39%;
+        width: 28vw; 
+        height: auto;
+        font-size: 1em;
+        z-index: 50;
+        
+       }
+  
+       #bars {
+         position: absolute;
+         right: 10vw;
+         top: 3vh;
+       }
+  
+      #hero-img {
+        width: 103%;
+        height: auto;
+        /* margin-top: 1vh; */
+      }
+  
+  
+    /*  ! BEGIN section 2 !  */  
+  
+    #section-2{
+    position: absolute;
+    width: 100vw;
+    top: 100vh;
+    left: 0vw;
+    /* background: rgba(16, 232, 102, 0.221); */
+    }
+  
+    #flex-container-2 {
+      margin-top: 5vh;
+      width: 100vw;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      left:0;
+    }
+  
+    #about {
+      font-size: 1em;
+      width: 88vw;
+      padding-left: 2.5vw;
+    }
+  
+    #ig-wrapper {
+      /* position: absolute; */
+      margin-top: -4vh;
+      align-self: center;
+      margin-left: 3vw;
+      width: 70vw;     
+    }
+  
+   /* blockquote {
+    
+   } */
+  
+  #section-3{
+    margin-top: 15vh;
+    display: flex; 
+    flex-direction: column;
+    width: 100vw;
+    }
+  
+    /* ! BEGIN section 3 ! */
+    #our-services {
+      position: absolute;
+      top: 58vh;
+      /* align-self: center;
+      justify-self: flex-end; */
+      flex-direction: column;
+      width:70vw;
+      height: 50vh;
+      overflow-x: scroll;
+      margin-left: -9vw;
+     
+    }
+  
+    #contact-para  {
+      padding-left: 15vw;
+      margin-top: 15vh;
+      margin-bottom: 10vh;
+      position: absolute;
+      width: 80%;;
+      top: -8vh;
+      left: 0vh;
+      font-size: 1em;
+    }
+   
+    #our-services {
+    margin-top: -22.5vh;
+    }
+  
+    #contact{
+      position: absolute;
+      top: 100vh;
+      width: 85vw;
+      height: auto;
+      margin-left: 1vw;
+      }
+  
+        input {
+        width: 75vw;
+      }
+  
+      #contact textarea {
+        width: 75vw;
+      }
+  
+      #animation-container-3 {
+        position: absolute;
+        top: 84.4vh;
+        left: -7%;
+      }
+  
+      #submit {
+        width: 30vw;
+        background: rgba(0, 0, 0, 0);
+        border: 2px solid black;
+        color: black;
+      }
+  
+  
+  /* ! BEGIN section 4 ! */ 
+  
+  #section-4 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute; 
+    left: 0vw;
+    top: 370vh;
+    /* background: rgba(0, 255, 255, 0.228); */
+    background: linear-gradient(0deg, rgba(255,103,1,5.1922969871542367) 0%, rgba(252,236,221,1)  30%); 
+  }
+  
+  #testimonial-h1 {
+    margin-top: 25vh;
+  }
+  
+  .siema {
+    position: absolute;
+    top: 35vh;
+    margin-top: 15vh;
+    /* align-self: center; */
+    /* background: rgba(0, 0, 255, 0.125); */
+    /* margin-bottom: 2vh; */
+    width: 90vw;
+    border: 2px solid black;
+    padding: 1vh 0.5vh 1vh 0.5vh;
+    z-index: 40;
+  } 
+  
+  .yelp-review {
+    /* padding-left: 1vw; */
+    z-index: 40;
+  }
+  
+  
+  #left-btn {
+    position: absolute;
+    top: 70vh;
+   
+  }
+  
+  #right-btn {
+  position: absolute;
+  top: 70vh;
   }
   
   
