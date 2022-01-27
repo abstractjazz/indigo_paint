@@ -72,6 +72,8 @@ colorArray.map(colorBox=>{
         })
     })
 
+
+
    
     
     // const div1=document.getElementById('div-1')
@@ -151,6 +153,7 @@ colorArray.map(colorBox=>{
     const topNav = document.getElementById('topnav')
     const links = document.getElementById("myLinks");
 
+
 function myFunction() {
     const navBox = document.querySelector('.topnav')
     if (links.style.display === "block") {
@@ -174,3 +177,15 @@ function myFunction() {
   links.addEventListener('click', function(){
      bars.click();
   })
+
+
+  let safariAgent = navigator.userAgent.indexOf("Safari") > -1;
+  console.log(safariAgent)
+
+  const igWrapper=document.querySelector('#ig-wrapper')
+  const contactPara=document.querySelector('#contact-para')
+
+
+  if (safariAgent && window.innerWidth  < 480) {
+    igWrapper.style.display="none";
+  }

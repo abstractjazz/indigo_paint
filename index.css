@@ -712,8 +712,6 @@ display: inline-block;
     overflow-x: hidden;
   } 
 
-
-  
   #section-1 {
   display: flex;
   flex-direction: column-reverse;
@@ -723,7 +721,7 @@ display: inline-block;
   /* background: rgba(0, 0, 0, 0.221); */
   }
 
-  #hero-div {
+    #hero-div {
     margin-top: -12vh;
     padding-left: 15vw;
     width: 100vw;
@@ -836,7 +834,9 @@ display: inline-block;
     top: -8vh;
     left: 0vh;
     font-size: 1em;
+    -webkit-display: none;
   }
+
  
   #our-services {
   margin-top: -19vh;
