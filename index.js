@@ -149,10 +149,10 @@ colorArray.map(colorBox=>{
     const subHead = document.getElementById('subhead')
     const banner = document.getElementById('banner')
     const topNav = document.getElementById('topnav')
+    const links = document.getElementById("myLinks");
 
 function myFunction() {
     const navBox = document.querySelector('.topnav')
-    const links = document.getElementById("myLinks");
     if (links.style.display === "block") {
       links.style.display = "none";
       navBox.style.backgroundColor=""
@@ -170,3 +170,7 @@ function myFunction() {
       topNav.style.zIndex="500"
     }
   } 
+
+  links.addEventListener('click', function(){
+     bars.click();
+  })

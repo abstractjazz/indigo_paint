@@ -24,6 +24,11 @@ body {
    
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .topnav {
   /* overflow: hidden; */
   /* background-color: #333; */
@@ -496,6 +501,7 @@ height: 20vh; */
   font-family: 'queen of clubs', sans-serif;
 }
 
+
 #paintbrush {
   width: 20vw;
   height: 20vh;
@@ -511,6 +517,11 @@ height: 20vh; */
   width: 100vw;
   /* margin-bottom: 5vh; */
   padding: 1vh 2vh 1vh 2vh;
+}
+
+.service-img {
+  width: 150px;
+  height: 150px;
 }
 
 #contact-para {
@@ -1462,7 +1473,8 @@ margin-left: 1vh;
     left: 0vw;
     /* background: rgba(16, 232, 102, 0.221); */
     }
-  
+
+
     #flex-container-2 {
       margin-top: 5vh;
       width: 100vw;
