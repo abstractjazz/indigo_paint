@@ -1201,13 +1201,13 @@ margin-left: 1vh;
     }
   
     #hero-div {
-      margin-top: -12vh;
+      margin-top: 5vh;
       padding-left: 15vw;
       width: 100vw;
       }
   
       #first-para {
-        margin-top: 18vh;
+        margin-top: 2.5vh;
         font-size: 1em;
         width: 85%; 
       } 
@@ -1362,11 +1362,11 @@ margin-left: 1vh;
   }
   
   #testimonial-h1 {
-    margin-top: 25vh;
+    margin-top: 7.5vh;
   }
   
   .siema {
-    margin-top: 25vh;
+    margin-top: -1.5vh;
     align-self: center;
     /* background: rgba(0, 0, 255, 0.125); */
     /* margin-bottom: 2vh; */
@@ -1419,13 +1419,13 @@ margin-left: 1vh;
     }
   
     #hero-div {
-      margin-top: -12vh;
+      margin-top: 0vh;
       padding-left: 15vw;
       width: 100vw;
       }
   
       #first-para {
-        margin-top: 18vh;
+        margin-top: 7vh;
         font-size: 1em;
         width: 85%; 
       } 
@@ -1476,7 +1476,7 @@ margin-left: 1vh;
 
 
     #flex-container-2 {
-      margin-top: 5vh;
+      margin-top: -2vh;
       width: 100vw;
       flex-direction: column;
       align-items: flex-start;
@@ -1495,7 +1495,7 @@ margin-left: 1vh;
       margin-top: -4vh;
       align-self: center;
       margin-left: 3vw;
-      width: 70vw;     
+      width: 75vw;     
     }
   
    /* blockquote {
@@ -1525,17 +1525,17 @@ margin-left: 1vh;
   
     #contact-para  {
       padding-left: 15vw;
-      margin-top: 15vh;
+      margin-top: -5vh;
       margin-bottom: 10vh;
       position: absolute;
       width: 80%;;
-      top: -8vh;
+      top: -1.5vh;
       left: 0vh;
       font-size: 1em;
     }
    
     #our-services {
-    margin-top: -22.5vh;
+    margin-top: -42.5vh;
     }
   
     #contact{
