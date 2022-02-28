@@ -24,6 +24,27 @@ body {
    
 }
 
+.instagram-media {
+  background:#FCECDD; 
+  border:0; border-radius:3px; 
+  box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
+  margin: 1px; 
+  max-width:540px; 
+  min-width:326px; 
+  padding:0; 
+  width:50%; 
+  /*width:-webkit-calc(100% - 2px); 
+  width:calc(100% - 2px);*/
+}
+
+#mobile-instagram-media {
+  display: none;
+}
+
+#mobile-gallery {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -198,6 +219,11 @@ margin-top: 12vh;
 /* width: 25vw;
 height: 20vh; */
 
+
+iframe.yelp-review {
+  height: 100vh;
+  width: auto;
+}
 
 #hero-div {
   width: 50vw;
@@ -416,6 +442,11 @@ height: 20vh; */
    box-shadow:         inset  0 0 10px #aeaeae61; */
 }
 
+#mobile-instagram-media {
+  width: 75%;
+  height: auto;
+}
+
 #about h1 {
   
   margin-top: 0;
@@ -624,14 +655,15 @@ display: inline-block;
   z-index: 40;
 } 
 
-
-
-.yelp-review {
-  padding-left: 1vw;
-  z-index: 40;
+img.yelp-img {
+  width: 100%;
+  height: auto;
 }
 
-
+.yelp-review {
+  /* padding-left: 1vw;
+  z-index: 40; */
+}
 
 #left-btn {
   position: absolute;
@@ -708,9 +740,23 @@ display: inline-block;
 @media only screen and (max-width: 375px) {
   
   body {
-
     overflow-x: hidden;
   } 
+
+ #ig-wrapper  {
+    display:none;
+  }
+
+  #mobile-instagram-media {
+    display:flex;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    top: 65vh;
+    width: 75%;
+    height: auto;
+    margin-bottom: 5vh;
+  }
 
   #section-1 {
   display: flex;
@@ -728,25 +774,33 @@ display: inline-block;
     }
 
     #first-para {
-      margin-top: 18vh;
+
+      margin-top: 20vh;
+      padding-top: 2vh;
       font-size: 1em;
-      width: 85%; 
+      width: 90%; 
+      /* margin-bottom: 2vh; */
     } 
 
   #img-container {
     /* margin-top: 4.5vh; */
-    margin-bottom:2vh;
+    /* margin-bottom:2vh; */
   } 
 
    #offset-border { 
+    position: absolute;
+    left:4vw;
     width: 78vw;
     height: 28vh;
+    top: 15vh;
+    /* margin-bottom: 2vh; */
     /* padding-left: 2vw; */
     }  
     
     #contact-button {
       position: absolute;
       left: 39%;
+      top: 75vh;
       width: 28vw; 
       height: auto;
       font-size: 1em;
@@ -774,6 +828,7 @@ display: inline-block;
   width: 100vw;
   top: 100vh;
   left: 0vw;
+  
   /* background: rgba(16, 232, 102, 0.221); */
   }
 
@@ -798,6 +853,11 @@ display: inline-block;
     align-self: center;
     margin-left: 3vw;
     width: 90vw;     
+  }
+
+  .instagram-media {
+    height: 50%;
+    width: auto;
   }
 
  /* blockquote {
@@ -895,12 +955,12 @@ display: inline-block;
   width: 90vw;
   border: 2px solid black;
   padding: 1vh 0.5vh 1vh 0.5vh;
-  z-index: 40;
+  /* z-index: 40; */
 } 
 
 .yelp-review {
   /* padding-left: 1vw; */
-  z-index: 40;
+  /* z-index: 40; */
 }
 
 
@@ -1144,11 +1204,12 @@ margin-left: 1vh;
   }
   
   #testimonial-h1 {
+    background-color: black;
     margin-top: 25vh;
   }
   
   .siema {
-    margin-top: 20vh;
+    margin-top: 0;
     align-self: center;
     /* background: rgba(0, 0, 255, 0.125); */
     /* margin-bottom: 2vh; */
@@ -1158,21 +1219,17 @@ margin-left: 1vh;
     z-index: 40;
   } 
   
-  .yelp-review {
-    /* padding-left: 1vw; */
-    z-index: 40;
-  }
-  
-  
+ 
+   
   #left-btn {
     position: absolute;
-    top: 50vh;
+    top: 79vh;
    
   }
   
   #right-btn {
   position: absolute;
-  top: 50vh;
+  top: 79vh;
   }
   
   
@@ -1378,19 +1435,19 @@ margin-left: 1vh;
   
   .yelp-review {
     /* padding-left: 1vw; */
-    z-index: 40;
+    /* z-index: 40; */
   }
   
   
   #left-btn {
     position: absolute;
-    top: 50vh;
+    top: 63vh;
    
   }
   
   #right-btn {
   position: absolute;
-  top: 50vh;
+  top: 63vh;
   }
   
   
@@ -1495,7 +1552,7 @@ margin-left: 1vh;
       margin-top: -4vh;
       align-self: center;
       margin-left: 3vw;
-      width: 75vw;     
+      width: 50vw;     
     }
   
    /* blockquote {
@@ -1599,7 +1656,7 @@ margin-left: 1vh;
   
   .yelp-review {
     /* padding-left: 1vw; */
-    z-index: 40;
+    /* z-index: 40; */
   }
   
   

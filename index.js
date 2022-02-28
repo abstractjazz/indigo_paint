@@ -186,6 +186,6 @@ function myFunction() {
   const contactPara=document.querySelector('#contact-para')
 
 
-//   if (safariAgent != false) {
+//   if (window.width < ) {
 //     igWrapper.innerHTML="";
 //   } else {}
