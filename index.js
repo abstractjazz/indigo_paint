@@ -1,6 +1,5 @@
 console.log("index.js")
 
-
 // LottieInteractivity.create({
 //     mode: 'scroll',
 //     player:'#paintball',
