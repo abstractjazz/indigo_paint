@@ -24,6 +24,16 @@ body {
    
 }
 
+#mobile-instagram-media{
+  z-index: 4400;
+}
+
+#mobile-gallery {
+  z-index: 5500;
+}
+
+
+
 .instagram-media {
   background:#FCECDD; 
   border:0; border-radius:3px; 
@@ -763,9 +773,21 @@ img.yelp-img {
   }
 
   .siema#mobile-gallery {
+  position: absolute;
+  top: 30vh;
+  left: 0.75vh;
    display: inherit;
    overflow-x: scroll;
+   overflow-y: scroll;
+   width: 85%;
+   height: 25%;
   } 
+
+  #mobile-gallery img {
+    height: 100%;
+    width: auto;
+  }
+
 
   #left-btn {
     display: none;
