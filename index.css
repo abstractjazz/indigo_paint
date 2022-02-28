@@ -747,7 +747,7 @@ img.yelp-img {
   /* border: 1px solid black; */
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) {
+@media only screen and (min-width: 360px) and (max-width: 500px) {
   
   body {
     overflow-x: hidden;
