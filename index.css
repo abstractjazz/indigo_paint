@@ -24,6 +24,7 @@ body {
    
 }
 
+
 #mobile-instagram-media{
   z-index: 4400;
 }
@@ -903,6 +904,7 @@ img.yelp-img {
  } */
 
 #section-3{
+  top: 210vh;
   margin-top: 15vh;
   display: flex; 
   flex-direction: column;
@@ -925,7 +927,6 @@ img.yelp-img {
 
   #contact-para  {
     padding-left: 7vw;
-    margin-top: 15vh;
     margin-bottom: 10vh;
     position: absolute;
     width: 80%;;
@@ -933,7 +934,12 @@ img.yelp-img {
     left: 0vh;
     font-size: 1em;
     -webkit-display: none;
+    z-index: 20000
   }
+
+  /* #contact-para h1 {
+   
+  } */
 
  
   #our-services {
@@ -983,7 +989,8 @@ img.yelp-img {
 }
 
 #testimonial-h1 {
-  margin-top: 5vh;
+ position: absolute;
+ top: 13vh;
 }
 
 .siema {
@@ -1020,9 +1027,8 @@ margin-left: 1vh;
   }
 
 }
-
-
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+ 
+@media only screen and (min-width: 1126px) and (max-width: 1400px) {
   
   body {
 
@@ -1034,7 +1040,7 @@ margin-left: 1vh;
   height: auto;
 }
 
-#contact-para{
+#contact-para {
   margin-left: -9vw;
   }
   

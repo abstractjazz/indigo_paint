@@ -1,5 +1,45 @@
 console.log("index.js")
 
+const sectionOne = document.getElementById('section-1')
+const sectionTwo = document.getElementById('section-2')
+const sectionThree = document.getElementById('section-3')
+const sectionFour = document.getElementById('section-4')
+
+const handleScreenChange = () => {
+    if ((window.innerWidth > window.innerHeight ) && (window.innerHeight < 412)) {
+        sectionOne.style.display="none"
+        sectionTwo.style.display="none"
+        sectionThree.style.display="none"
+        sectionFour.style.display="none"
+    } else {
+        sectionOne.style.display=""
+        sectionTwo.style.display=""
+        sectionThree.style.display=""
+        sectionFour.style.display=""
+    }
+}
+
+
+window.addEventListener('resize', handleScreenChange);
+// screenOrientation.onchange=function(){body.style.display="none"}
+
+// function handleScreenChange(){
+// const body = document.getElementById('body')
+// body.style.display="none"
+// }
+
+// if ((window.innerWidth > window.innerHeight ) && (window.innerWidth > 412)) {
+// body.style.display="none"
+// } else {}
+
+// if (window.innerWidth < '412px') {
+// body.style.display="none";
+// } 
+
+
+
+
+
 // LottieInteractivity.create({
 //     mode: 'scroll',
 //     player:'#paintball',
