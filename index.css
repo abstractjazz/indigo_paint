@@ -51,7 +51,7 @@ body {
 
 
 #mobile-instagram-media {
-  /* display: none; */
+display:none;
 }
 
 #mobile-gallery {
@@ -445,7 +445,7 @@ iframe.yelp-review {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 2vh 2vh 1vh 2vh;
   margin-bottom: 0;
   width: 30%;
@@ -1727,3 +1727,7 @@ margin-left: 1vh;
   
   }
 
+#ig-photo{
+  width: 100%
+  height: auto;
+}
