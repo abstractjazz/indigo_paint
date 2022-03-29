@@ -45,8 +45,10 @@ body {
   padding:0; 
   width:50%; 
   /*width:-webkit-calc(100% - 2px); 
-  width:calc(100% - 2px);*/
-} */
+  width:calc(100% - 2px);
+}*/
+
+
 
 #mobile-instagram-media {
   display: none;
