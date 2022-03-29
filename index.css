@@ -24,9 +24,10 @@ body {
    
 }
 
-
-#mobile-instagram-media{
-  display:none;
+img#mobile-instagram-media{
+  position: absolute;
+  top: 155vh;
+  left: 12vw;
   z-index: 4400;
 }
 
