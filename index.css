@@ -464,7 +464,7 @@ iframe.yelp-review {
 
 #about h1 {
   
-  margin-top: 0;
+  margin-top: 25;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -759,9 +759,9 @@ img.yelp-img {
     overflow-x: hidden;
   } 
 
- #ig-wrapper  {
+ /* #ig-wrapper  {
     display:none;
-  }
+  } */
 
   #mobile-instagram-media {
     display:flex;
@@ -1148,7 +1148,7 @@ margin-left: 1vh;
     }
   
     #flex-container-2 {
-      margin-top: 5vh;
+      margin-top: -14vh;
       width: 100vw;
       flex-direction: column;
       align-items: flex-start;
@@ -1362,7 +1362,7 @@ margin-left: 1vh;
     }
   
     #flex-container-2 {
-      margin-top: 5vh;
+      margin-top: -32vh;
       width: 100vw;
       flex-direction: column;
       align-items: flex-start;
